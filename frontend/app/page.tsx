@@ -66,19 +66,19 @@ export default function OverviewPage() {
       <div className="bg-gray-900 border border-gray-800 rounded-xl p-5 mb-8 flex items-center gap-4">
         <div
           className={`w-3 h-3 rounded-full ${
-            loading ? "bg-yellow-500 animate-pulse" : status.connected ? "bg-green-500" : "bg-red-500"
+            loading ? "bg-yellow-500 animate-pulse" : status.connected ? "bg-green-500" : "bg-gray-600"
           }`}
         />
         <div>
           <div className="text-sm font-medium text-gray-200">
             {loading
-              ? "Connecting to Aztec Sandbox…"
+              ? "Checking Aztec Sandbox…"
               : status.connected
               ? `Sandbox connected — block #${status.blockNumber}`
-              : `Sandbox offline — ${status.error ?? "not reachable"}`}
+              : "Demo mode — Aztec Sandbox not connected (local node required)"}
           </div>
           <div className="text-xs text-gray-500 mt-0.5">
-            localhost:8080 · chain 31337 · Aztec v4.1.3
+            {status.connected ? "localhost:8080 · chain 31337 · Aztec v4.1.3" : "All demo flows work without a local node"}
           </div>
         </div>
       </div>
