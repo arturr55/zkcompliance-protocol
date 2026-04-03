@@ -192,8 +192,8 @@ Long-term goal: ZKCompliance becomes the compliance layer for all private financ
 
 ## 10. Links
 
-- **Repository:** [GitHub link]
-- **Architecture doc:** [link to ARCHITECTURE.md]  
+- **Repository:** https://github.com/arturr55/zkcompliance-protocol
+- **Architecture doc:** https://github.com/arturr55/zkcompliance-protocol/blob/main/docs/ARCHITECTURE.md  
 - **Demo video:** [link — to be recorded after testnet deploy]
 - **Privacy Policy / Legal:** ZKCompliance is infrastructure. It does not custody funds. Users interact with smart contracts directly.
 
