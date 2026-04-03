@@ -4,6 +4,8 @@ Privacy-first corporate payroll & compliance infrastructure on **Aztec Network**
 
 Zero-knowledge salary payments with built-in regulatory compliance (MiCA, FinCEN, MAS).
 
+**🌐 Live Demo: [zkcompliance-protocol.vercel.app](https://zkcompliance-protocol.vercel.app)**
+
 ## What it does
 
 - **Confidential payroll** — salary amounts encrypted to employee's key, invisible to everyone else
@@ -22,13 +24,13 @@ Regulator sees: nothing by default
 
 ## Status
 
-- [x] PrivatePayroll contract (Noir)
-- [x] 10/10 TXE tests passing
+- [x] PrivatePayroll contract (Noir) — 14/14 TXE tests passing
+- [x] Token Escrow (Milestone 3)
+- [x] ComplianceOracle M-of-N contract — 12/12 TXE tests passing
 - [x] Aztec Sandbox deployment
-- [ ] ZK-KYC integration (Privado ID)
-- [ ] Compliance Oracle contract (M-of-N)
-- [ ] Token escrow + claim flow
-- [ ] Aztec Testnet deploy + Frontend
+- [x] Next.js Frontend demo (Milestone 4) — [live](https://zkcompliance-protocol.vercel.app)
+- [ ] ZK-KYC integration (Privado ID) — Milestone 1
+- [ ] Aztec public testnet deploy
 
 ## Quick Start
 
