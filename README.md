@@ -79,4 +79,6 @@ node scripts/deploy.js
 
 ## License
 
-MIT
+[Business Source License 1.1](LICENSE) — free for research & evaluation, commercial use requires permission until 2029-04-03, then converts to MIT.
+
+Contact: tirionartur@gmail.com
