@@ -5,7 +5,7 @@
 **Category:** Developer Tooling / Infrastructure  
 **Stage:** MVP built, Sandbox deployed, seeking grant to complete Phase 1  
 **Contact:** tirionartur@gmail.com  
-**Repository:** [your GitHub repo link]
+**Repository:** https://github.com/arturr55/zkcompliance-protocol
 
 ---
 
