@@ -1,0 +1,7 @@
+node_modules/
+*.log
+pxe_data_*/
+wallet_data_*/
+deployment.json
+*.bak
+target/*.bak
