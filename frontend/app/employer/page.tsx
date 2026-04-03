@@ -9,6 +9,7 @@ interface State {
   kycVerified: boolean;
   escrowBalance: number;
   payrollCommitted: number;
+  real?: boolean;
 }
 
 export default function EmployerPage() {
@@ -88,6 +89,12 @@ export default function EmployerPage() {
             {state.payrollCommitted.toLocaleString()} tokens
           </div>
         </div>
+      </div>
+
+      {/* Mode badge */}
+      <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium mb-6 ${state.real ? "bg-green-900 text-green-300" : "bg-gray-800 text-gray-400"}`}>
+        <div className={`w-2 h-2 rounded-full ${state.real ? "bg-green-400" : "bg-gray-500"}`} />
+        {state.real ? "Live — connected to Aztec Sandbox" : "Demo mode — mock transactions"}
       </div>
 
       {/* Address info */}
